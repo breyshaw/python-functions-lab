@@ -1,4 +1,4 @@
-# Challenge 1
+# Challenge 1---------------------------------------------
 
 def sum_to(n):
   sum = 0
@@ -9,10 +9,21 @@ def sum_to(n):
 n = 12
 print(sum_to(n))
 
-# Challenge 2
+# Challenge 2---------------------------------------------
 
 list = [1,29,3,26]
 def largest(list):
   return max(list)
   
 print(largest(list))
+
+# Challenge 3---------------------------------------------
+
+def occurances(string1, string2):
+  count = string1.count(string2)
+  return count
+# print(occurances('brey', 'b'))
+print(occurances('super-sonic-and-super-shadow', 's'))
+
+# Challenge 4---------------------------------------------
+
