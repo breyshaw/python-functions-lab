@@ -10,3 +10,8 @@ n = 12
 print(sum_to(n))
 
 # Challenge 2
+
+list = [1,29,3,26]
+def largest(list):
+  return max(list)
+print(max(list))
